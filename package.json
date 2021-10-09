@@ -1,0 +1,32 @@
+{
+  "name": "comp-229-assignement-1-301169733",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "node.js": "^0.0.1-security"
+  },
+  "description": "Assignment-1",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyesh155/COMP_229_Assignement-1_301169733.git"
+  },
+  "author": "301169733",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divyesh155/COMP_229_Assignement-1_301169733/issues"
+  },
+  "homepage": "https://github.com/divyesh155/COMP_229_Assignement-1_301169733#readme"
+}
