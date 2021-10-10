@@ -1,11 +1,46 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+  <body class="d-flex flex-column h-1000 mb-5" style="background-color: rgb(0, 0, 0);" >
+<% include partials/header.ejs %>
+<% include partials/content.ejs %>
+<% include partials/footer.ejs %>
+<% include partials/bottom_nav.ejs %>
+
   </body>
-</html>
+</html> -->
+
+<!--
+  File Name : index.ejs
+  Name : Divyesh Patel
+  Student ID : 301169733
+  Date : 10/10/2021
+-->
+
+<% include partials/header.ejs %>
+<body class="d-flex flex-column h-1000 mb-5" style="background-color: rgb(0, 0, 0);" >
+  <header>      
+    <%- include partials/main_nav.ejs %>
+  </header>
+    <main class="flex-shrink-0">
+      <div class="container mt-4 mb-2" style="box-shadow: 1px 1px 5px 3px rgb(41 55 74); background-color: rgba(61, 61, 61, 0.815);">
+        <div class="row" style="height: 100%;" >
+          <% if(title == "Home") { %> 
+            <%- include partials/home %>
+
+          <%} else if(title == "About Me") { %> 
+            <%- include partials/aboutme %>
+          
+            <%} else if(title == "Services") { %> 
+            <%- include partials/services %>
+          
+            <%} else if(title == "Projects") { %> 
+            <%- include partials/projects %>
+          <% } %>            
+        </div>
+    </main>   
+<%include partials/bottom_nav.ejs %>
+
+<% include partials/footer.ejs %>
+
+
+

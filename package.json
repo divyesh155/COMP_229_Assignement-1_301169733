@@ -1,5 +1,5 @@
 {
-  "name": "comp-229-assignement-1-301169733",
+  "name": "comp_229_assignment1_301169733",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -13,18 +13,19 @@
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "jquery": "^3.6.0",
     "morgan": "~1.9.1",
     "node.js": "^0.0.1-security"
   },
-  "description": "Assignment-1",
+  "description": "assignment-1",
   "main": "app.js",
+  "author": "301169733",
+  "license": "ISC",
   "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/divyesh155/COMP_229_Assignement-1_301169733.git"
   },
-  "author": "301169733",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/divyesh155/COMP_229_Assignement-1_301169733/issues"
   },
