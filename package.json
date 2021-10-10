@@ -15,7 +15,7 @@
     "http-errors": "~1.6.3",
     "jquery": "^3.6.0",
     "morgan": "~1.9.1",
-    "node.js": "^14.17.6"
+    "node.js": "^0.0.1-security"
   },
   "description": "assignment-1",
   "main": "app.js",
